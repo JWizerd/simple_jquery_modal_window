@@ -17,12 +17,10 @@ $("#modal-init").click(function(){
   //fade in
   modal.fadeIn(500);
 
-  $(this)
-
 });
 
 // to close the window
-$('.modal-window #close').click(function(e){
+$('.modal-window #close').click(function(){
 
   $(".modal-window").fadeOut(500);
 });
